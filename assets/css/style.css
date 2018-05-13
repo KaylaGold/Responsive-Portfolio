@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    color: #000;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+nav {
+    border-bottom: 3px solid #ddd;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar > h1 {
+    display: block;
+    margin: 0;
+    line-height: 50px;
+    padding: 25px 40px;
+    color: #fff;
+    background-color: #4aaaa5;
+    font-size: 30px;
+    float: left;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+.navbar > ul > li {
+    float: right;
+}
+
+.navbar > ul > li > a {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: #aaa ;
+    font-size: 18px;
+    font-family: helvetica, arial, serif;
+}
+
+.border-right {
+    border-right: 1px solid #ddd;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    width: 960px;
+    height: 100%;
+    clear: both;
+}
+
+main {
+    background-color: #fff;
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 0;
+    margin-bottom: 100px;
+    position: relative;
+    float: left;
+
+}
+
+main > h2 {
+    border-bottom: 3px solid #ddd;
+    color:#4aaaa5;
+    font-size: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+
+main > img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+main > p {
+    font-family: helvetica;
+    line-height: 200%;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    background-color: #555;
+    height: 75px;
+    clear: both;
+    padding-top: 20px;
+}
+
+footer > p {
+    text-align: center;
+    color: #ccc;
+    font-family: helvetica, arial, serif;
+    font-size: 16px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+  
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+  
+input[type=submit] {
+      background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+  
+
+.display-left {
+
+    display: inline-block;
+    position: relative;
+    float: left;
+
+}
+
+.display-right {
+
+    display: inline-block;
+    position: relative;
+    float: left;
+    
+}
+
+.left {
+
+    height: 194px;
+    width: 250px;
+    padding: 20px 30px 20px 0px;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    float: left;
+    
+
+
+}
+
+.right { 
+
+    height: 194px;
+    width: 250px;
+    padding: 20px 30px 20px 0px;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    float: left;
+
+}
+
+.image-title {
+
+    background: #4aaaa5;
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 2;
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+    bottom: 25px;
+    
+}
+    @media (max-width: 980px){
+        .navbar {
+            width: 100%;
+        }
+
+        .navbar > ul {
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .navbar > ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+        .navbar > h1 {
+            width: 100%;
+            margin: 0;
+            padding:0;
+            text-align: center;
+            position: static;
+        }
+    
+        .navbar > ul {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .navbar > ul > li {
+            width: 33%;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .container {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+           
+        main {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+}
